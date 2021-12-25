@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="movies">
+        
+        <div class="container mt-3">
+            
+            <h2 class="movies__header text-center fs-2">
+                
+                Movies catalog
+                
+            </h2>
+            
+            <div class="row">
+                
+                <div class="col-4">
+                    
+                    <form action="https://echo.htmlacademy.ru/">
+                        
+                        <div class="mb-3">
+                            
+                            <input  class="form-control mb-2" 
+                            name="movies name"
+                            type="text"
+                            placeholder="ave"
+                            aria-label="movies name"
+                            required>
+                            
+                            
+                            <input class="form-control mb-2"
+                            name="seria" 
+                            type="number"
+                            placeholder="5"
+                            aria-label="seria">
+                            
+                            <select class="form-select form-select-lg mb-2"
+                            name="seria select"
+                            aria-label="select seria"
+                            >
+                            <option selected >all</option>
+                            <option value="1">first</option>
+                            <option value="2">second</option>1
+                            <option value="3">Thirt</option>
+                        </select>
+                        
+                        <select class="form-select form-select-lg mb-2"
+                        name="reating film"
+                        aria-label="Reating film">
+                        <option selected>Reating (high to low)</option>
+                        <option value="1">+5</option>
+                        <option value="2">+4</option>
+                        <option value="3">+3</option>
+                    </select>
+                    
+                </div>
+                
+                <button type="submit" class="btn w-100 btn-primary">Search</button>
+                
+                
+                
+            </form>
+ 
+            <div class="add mt-4">
+
+                <h2 class="add__heading">
+                    Bookmarked movies
+                </h2>
+
+            <ul class="list list-group">
+
+                <li class="list-group-item border p-2">
+
+                    <p class="text">Avengers:Infinity War</p>
+                    <button type="button" class="btn btn-danger">Remove</button>
+
+                </li>
+
+                <li class="list-group-item border p-2">
+
+                    <p class="text">Avengers:Infinity War</p>
+                    <button type="button" class="btn btn-danger">Remove</button>
+
+                </li>
+
+                <li class="list-group-item border p-2">
+
+                    <p class="text">Avengers:Infinity War</p>
+                    <button type="button" class="btn btn-danger">Remove</button>
+
+                </li>
+
+            </ul>
+
+            </div>
+
+            
+        </div>
+        
+        <div class="col-8">
+
+            <p class="search__paragraph mb-2">
+                Search result:39
+            </p>
+    
+            <div class="alert alert-primary color-info" role="alert">
+               Use the form on the left to search for a movies
+              </div>
+    
+              <div class="cards row">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/images.jpg" class="card-img-top"
+                     alt="kity"
+                    width="300"
+                    height="160">
+                    <div class="card-body">
+                      <h5 class="card-title">Avengers: Infinity War</h5>
+                      <p class="card__paragraph">
+                        <i class="bi bi-calendar2-fill"></i> 2018
+                      </p>
+                      <p class="card__paragraph">
+                        <i class="bi bi-star-fill text-warning"></i> 8.7
+                      </p>
+                      <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-primary">Watch Trailer </button>
+                        <button type="button" class="btn btn-primary">More Info</button>
+                        <button type="button" class="btn btn-primary">Bookmark</button>
+                      </div>
+
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="./images/images.jpg" class="card-img-top"
+                         alt="kity"
+                        width="300"
+                        height="160">
+                        <div class="card-body">
+                          <h5 class="card-title">Avengers: Infinity War</h5>
+                          <p class="card__paragraph">
+                            <i class="bi bi-calendar2-fill"></i> 2018
+                          </p>
+                          <p class="card__paragraph">
+                            <i class="bi bi-star-fill text-warning"></i> 8.7
+                          </p>
+                          <div class="btn-group" role="group" aria-label="Basic example">
+                            <button type="button" class="btn btn-primary">Watch Trailer </button>
+                            <button type="button" class="btn btn-primary">More Info</button>
+                            <button type="button" class="btn btn-primary">Bookmark</button>
+                          </div>
+                        </div>
+                    
+
+                    
+                  </div>
+
+              </div>
+    
+    
+        </div>
+        
+        
+    </div>
+
+  
+</div>
+
+</section>
+</body>
+
+</html>
